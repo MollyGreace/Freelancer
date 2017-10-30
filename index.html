@@ -17,7 +17,9 @@
   <header>
     <nav>
       <ul class="upper-case">
-        <li class="pos text-format-position"><h1>Star Bootstrap</h1></li>
+        <li class="pos text-format-position">
+          <h1>Star Bootstrap</h1>
+        </li>
         <li class="pos text-format">Portfolio</li>
         <li class="pos text-format">About</li>
         <li class="pos text-format">Contact</li>
@@ -32,7 +34,6 @@
     <figure><img class="profile-start" src="assets/images/profile.png" alt="perfil bootstrap"></figure>
     <div class="">
       <h1 class="upper-case format-title-start">Start Bootstrap</h1>
-      
       <hr class="hr-star-ligth"><i class="fa fa-star fa-star-ligth" aria-hidden="true"></i></hr>
       <p class="description">Web Developer - Graphic Artist - User Experience Designer</p>
     </div>
@@ -41,10 +42,10 @@
 
   <!-- Sección Portfolio -->
   <section class="text-dark">
-    <h2 class="upper-case format-title">Portfolio</h2>      
+    <h2 class="upper-case format-title">Portfolio</h2>
     <hr class="hr-star-dark">
     <i class="fa fa-star fa-star-dark" aria-hidden="true"></i>
-    <div  class="img-sort">
+    <div class="img-sort">
       <div class="img-portfolio">
         <figure><img src="assets/images/portfolio/cabin.png" alt=""></figure>
       </div>
@@ -69,17 +70,18 @@
 
   <!-- Sección About -->
   <section class="about-format text-ligth">
-    <div>
+    <div class="section-about">
       <h2 class="upper-case format-title">About</h2>
-      <hr class="hr-star-ligth">
       <i class="fa fa-star fa-star-ligth"></i>
-      <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including
+      <hr class="hr-star-ligth">
+      <p class="text-about">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including
         HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-      <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist
+      <p class="text-about">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist
         looking to share your projects, this template is the perfect starting point!</p>
-      <button>
-              Download Theme
-      </button>
+      <span class="font-family-2 btn-download">
+        <i class="fa fa-download" aria-hidden="true"></i>
+        Download Theme
+      </span>
     </div>
   </section>
   <!-- Fin About -->
@@ -87,9 +89,9 @@
   <!-- Sección contacto -->
   <section class="text-dark">
     <div>
-      <h2 class="upper-case format-title">Contact me</h2>   
+      <h2 class="upper-case format-title">Contact me</h2>
       <hr class="hr-star-dark">
-      <i class="fa fa-star fa-star-dark" aria-hidden="true"></i>  
+      <i class="fa fa-star fa-star-dark" aria-hidden="true"></i>
       <form class="form-style" action="">
         <input class="format-input" type="text" placeholder="Name">
         <input class="format-input" type="text" placeholder="Email Address">
@@ -108,22 +110,28 @@
       <h3 class="upper-case">Location</h3>
       <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
     </div>
-    
+
     <div class="footer-col col-02">
       <h3 class="upper-case">Around The Web</h3>
       <div>
-        <!--Sprites-->
+        <ul>
+          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-dribble" aria-hidden="true"></i></a></li>
+        </ul>
       </div>
     </div>
-    
-    <div class= "footer-col col-03">
+
+    <div class="footer-col col-03">
       <h3 class="upper-case">About Freelancer</h3>
       <div>
         <p>Freelance is a free to use, open source Bootstrap theme created by</p>
         <a class="text-link" href="https://blackrockdigital.github.io/startbootstrap-freelancer/"> Start Bootstrap.</a>
       </div>
     </div>
-    <div class="footer-end"><p>Copyright © Your Website 2017</p></div>
+    <div class="footer-end">Copyright © Your Website 2017</div>
   </footer>
   <!-- Fin de footer -->
 </body>
